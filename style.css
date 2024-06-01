@@ -1,0 +1,48 @@
+  @import url("https://use.typekit.net/ppx2jth.css");
+  @import url("https://use.typekit.net/ppx2jth.css");
+
+  :root {
+    --pri-clr: #FEFEFE;
+    --sec-clr: #1d1d1b;
+
+    --pri-weight: 400;
+    --hover-weight: 600;
+  }
+
+  body{
+    font-family: "forma-djr-display", sans-serif;
+   background-color: var(--pri-clr);
+  }
+
+
+  /* NAVIGATION */
+
+  .prinav{
+    font-weight: var(--pri-weight);
+    list-style: none;
+    color: var(--sec-clr);
+  }
+
+  .prinav nav-link:active{
+    color: var(--sec-clr);
+  }
+  .prinav nav-link:hover{
+    color: var(--sec-clr);
+  }
+
+  .prinav a:active{
+    color: var(--sec-clr);
+  }
+  .prinav a:hover{
+    font-weight: var(--hover-weight);
+  }
+
+  .secnav{
+    font-weight: var(--pri-weight);
+    display: none;
+    color: var(--sec-clr);
+  }
+
+  .secnav a:hover{
+    font-weight: var(--hover-weight);
+  }

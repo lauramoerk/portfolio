@@ -296,7 +296,7 @@ main {
 } */
 
 #mz-gallery figure img {
-  height: 100%;
+max-height: 600px;
   width: auto;
   border-radius: 0px;
   opacity: 0.9;
@@ -506,7 +506,7 @@ main {
     }
 
     body{
-        grid-template-rows: auto auto auto;
+        grid-template-rows: 1fr 2fr 1fr;
         height: 100%;
       }
   }

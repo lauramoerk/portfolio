@@ -509,6 +509,9 @@ max-height: 600px;
         grid-template-rows: 1fr 2fr 1fr;
         height: 100%;
       }
+
+      #mz-gallery figure img {
+        max-height: 300px;
   }
-    
+}
   

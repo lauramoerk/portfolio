@@ -507,6 +507,7 @@ main {
 
     body{
         grid-template-rows: auto auto auto;
+        height: 100%;
       }
   }
     

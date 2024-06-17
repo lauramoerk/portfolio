@@ -23,6 +23,9 @@
 
     /* prinav */
 
+    footer{position: relative;}
+
+
   #prinav{
     position: fixed;
     top: 85%;

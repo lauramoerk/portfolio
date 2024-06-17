@@ -83,6 +83,11 @@
         gap: 15px;
       }
 
+      .secnav ul li{
+        display: flex;
+        flex-direction: column;
+      }
+
     .secnav a{
         text-decoration: none;
         color: var(--sec-clr);

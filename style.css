@@ -31,7 +31,7 @@
     color: var(--sec-clr);
     display: flex;
     justify-content: flex-end;
-    font-size: 45px;
+    font-size: 30px;
   }
 
   #prinav ul{
@@ -70,7 +70,7 @@
     color: var(--sec-clr);
     justify-content: end;
     text-transform: uppercase;
-    font-size: 35px;
+    font-size: 20px;
     padding-left: 2%;
     padding-right: 2%;
     margin: 0;

@@ -276,6 +276,7 @@ nav{
       }
 
       .gallery-container .external .horizontal-scroll-wrapper {
+        position:fixed;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -321,7 +322,7 @@ nav{
       }
 
  .secnav{
-        font-size: 15px;
+        font-size: 20px;
         padding-left: 0%;
     }
 
@@ -344,3 +345,11 @@ nav{
 
 }}
   
+@media screen and (max-width: 500px){
+
+  .secnav{
+    font-size: 15px;
+  }
+
+
+}

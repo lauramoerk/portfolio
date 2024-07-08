@@ -313,8 +313,15 @@ nav{
 
 
   @media screen and (max-width: 900px){
-    .secnav{
-        font-size: 20px;
+    body{
+      display: flex;
+     flex-direction: column;
+        height: 100%;
+      }
+
+ .secnav{
+        font-size: 15px;
+        padding-left: 0%;
     }
 
     #prinav{
@@ -323,18 +330,11 @@ nav{
         right: 2%;
     }
 
-    .secnav{
-      padding-left: 0%;
-    }
+  
 
-    body{
-      display: flex;
-     flex-direction: column;
-        height: 100%;
-      }
-
-     
-
+  .nav-arrow img{
+    padding-top: 20px;
+  }
 
       .img-wrapper{
         min-height: 350px;

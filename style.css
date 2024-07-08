@@ -45,9 +45,10 @@ nav{
     display: flex;
     flex-direction: row;
     list-style: none;
-    gap: 15px;
+    justify-content: space-between;
     align-self: flex-end;
     padding-right: 20px;
+    height: auto;
   }
 
 #prinav li a.nav-link{

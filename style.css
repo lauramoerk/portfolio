@@ -21,6 +21,10 @@
 
   /* NAVIGATION */
 
+/*GLOBAL STYLING*/
+nav{
+  position: relative;
+}
     /* prinav */
 
     footer{position: relative;}
@@ -267,6 +271,10 @@
         height: 10px;
       }
 
+      .gallery-container .external{
+        padding-top: 9rem;
+      }
+
       .gallery-container .external .horizontal-scroll-wrapper {
         display: flex;
         flex-direction: column;
@@ -288,6 +296,10 @@
         flex-direction: row;
      align-items: baseline;
       }
+
+      nav{
+        position: fixed;
+      }   
 
       img {
         max-width: 35vh;

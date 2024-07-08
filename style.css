@@ -147,6 +147,7 @@
   .gallery-container .external {
     overflow: hidden;
     height: 100vh;
+    width: 100vw;
   }
   
   .gallery-container .external .horizontal-scroll-wrapper {

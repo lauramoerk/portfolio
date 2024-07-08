@@ -288,6 +288,14 @@
      align-items: baseline;
       }
 
+      img {
+        max-width: 35vh;
+        max-height: 40vh;
+        transition: .5s;
+        vertical-align: baseline;
+        filter: sepia(20%) hue-rotate(5deg);
+      }
+
   }
 
 
@@ -312,10 +320,8 @@
         height: 100%;
       }
 
-      img {
-        max-width: 300px;
-        max-height: 300px;
-      }
+     
+
 
       .img-wrapper{
         min-height: 350px;
